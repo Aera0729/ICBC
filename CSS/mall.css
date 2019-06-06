@@ -1,0 +1,91 @@
+/*
+* @Author: dell
+* @Date:   2019-05-31 17:03:01
+* @Last Modified by:   dell
+* @Last Modified time: 2019-06-02 11:25:52
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	border: 0;
+	outline: none;
+	/* color: #0d131a; */
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {
+	zoom:1;
+}
+
+/* tophead */
+.tophead {
+	width: 100%;
+	height: 31px;
+	background-color: #F7F7F7;
+}
+.tophead .container {
+	width: 1200px;
+	height: 31px;
+	margin: 0 auto;
+	/* background-color: pink; */
+}
+.tophead .tbar {
+	float: right;
+}
+.tophead .tbar span {
+	font-size: 12px;
+	color: #333;
+	line-height: 30px;
+	text-align: right; 
+	float: left;
+}
+.tophead .tbar span a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #333;
+	line-height: 30px;
+}
+.tophead .tbar s {
+	display: inline-block;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: right;
+    margin: 0 2px 0 2px; 
+}
+.tophead .tbar .i_user {
+	position: relative;
+	top: 0px;
+	background: url(../images/mall/new_ico_index.png) no-repeat -185px -48px;
+    padding-left: 18px;
+}
+.tophead .tbar .i_cart {
+	position: relative;
+	top: 0px;
+	background: url(../images/mall/new_ico_index.png) no-repeat -186px -77px;
+	padding-left: 18px;
+} 
+.tophead .tbar span a:hover {
+	color: #C7000B;
+	text-decoration: underline;
+}
+/* tophead 结束*/
+
+/* header */

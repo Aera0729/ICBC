@@ -1,0 +1,226 @@
+/*
+* @Author: dell
+* @Date:   2019-05-31 17:12:49
+* @Last Modified by:   dell
+* @Last Modified time: 2019-05-31 18:56:11
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	border: 0;
+	outline: none;
+	/* color: #0d131a; */
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {
+	zoom:1;
+}
+
+.bg1 {
+	width: 100%;
+	height: 768px;
+	background: url(../images/campus/banner2.png) no-repeat center;
+}
+.header {
+	width: 100%;
+	height: 66px;
+	position: fixed;
+	font-size: 18px;
+	z-index: 9;
+	color: #fff;
+}
+.header .headerinner {
+	width: 1268px;
+	position: relative;
+	left:50%;
+	margin-left: -634px; 
+}
+.header .headerinner>a {
+	overflow: hidden;
+	text-indent: -999px;
+	display: inline-block;
+	width: 300px;
+	height: 38px;
+	margin-top: 10px;
+	background: url(../images/campus/logo.png) no-repeat left center;
+}
+.header .headerinner .nav {
+	float: right;
+	width: 800px;
+	height: 100%;
+	line-height: 56px;
+}
+.header .headerinner .nav .nav-list{
+	margin-left: 26.5px;
+	margin-right: 26.5px;
+	font-size: 18px;
+	line-height: 56px;
+	color: #fff;
+}
+.header .headerinner .nav .frist {
+	color: rgb(201,0,10);
+}
+.header .headerinner .nav .nav-list:hover {
+	color: rgb(201,0,10);
+}
+.header .headerinner .nav .login {
+	margin-left: 26.5px;
+	margin-right: 26.5px;
+	font-size: 18px;
+	line-height: 56px;
+	background-color: #8d0007;
+	color: #fff;
+	border-radius: 11px;
+	padding:3px 10px;
+}
+.bg1 .content {
+	width: 1268px;
+	position: relative;
+	left:50%;
+	margin-left: -634px;
+	padding-top: 300px;
+}
+.bg1 .content .joinus {
+	display: block;
+	width: 130px;
+	height: 38px;
+	line-height: 38px;
+	background: #c9000a;
+	border-radius: 20px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.bg1 .content .joinus:hover {
+	background-color: #f1141f;
+}
+.bg2 {
+	width: 100%;
+	height: 556px;
+	background: url(../images/campus/bg3.jpg) no-repeat  top center;
+	margin-top: -295px;
+}
+.footer {
+	width: 1920px;
+	position: relative;
+	left: 50%;
+	margin-left: -960px;
+	z-index: 1;
+}
+.footer .zpinfo {
+	width: 863px;
+	height: 360px;
+	background-color: #242424;
+	opacity: 0.8;
+	position: absolute;
+	left: 395px;
+	top: 40px;
+	box-sizing: border-box;
+	padding: 48px 44px;
+}
+.footer .zpinfo .title {
+	width: 100%;
+	color: #fff;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.footer .zpinfo .title a {
+	float: right;
+	color: #fff;
+}
+.footer .zpinfo ul {
+	margin-top: 20px;
+	border-top: 1px solid #696969;
+	padding-top: 30px;
+	list-style: none;
+}
+.footer .zpinfo ul li {
+	background: url(../images/campus/laba.png) no-repeat left center;
+	padding-left: 24px;
+	margin-bottom: 24px;
+	width: 380px;
+	box-sizing: border-box;
+	list-style: none;
+	display: inline-block;
+}
+.footer .zpinfo ul li a {
+	color: #acacac;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	width: 17em;
+	width: 100%;
+	overflow: hidden;
+	padding-right: 40px;
+	background: url(../images/campus/laba.png) no-repeat left center;
+	margin-left: -25px;
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+.footer .zpinfo ul li a:hover {
+	color: #fff;
+}
+
+.footer .link {
+	opacity: 0.8;
+	width: 590px;
+	height: 520px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	box-sizing: border-box;
+	padding: 160px 0 0 58px;
+	background: #5d0000 url(../images/campus/logo3.png) no-repeat 58px 50px;
+	background-size: 65px auto;
+}
+.footer .link ul {
+	border-top: 1px solid #ff000d;
+	padding-top: 30px;
+	list-style: none;
+}
+.footer .link ul li {
+	width: 100%;
+	border-left: 4px solid #ff000d;
+	margin-bottom: 20px;
+	height: 16px;
+	padding-left: 5px;
+}
+.footer .link ul li a {
+	display: block;
+	line-height: 16px;
+	color: #fff;
+}
+.footer .link p {
+	color: #ebe1e1;
+	padding-top: 10px;
+	font-size: 16px;
+}
+.footer .link span {
+	display: block;
+	font-size: 12px;
+	line-height: 12px;
+	color: #b38f8f;
+	padding-top: 10px;
+}
+.footer .link span a {
+	font-size: 16px;
+	color: #fff;
+}
