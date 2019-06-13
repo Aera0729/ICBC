@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2019-05-30 14:15:11
 * @Last Modified by:   dell
-* @Last Modified time: 2019-05-30 19:01:41
+* @Last Modified time: 2019-06-12 10:26:20
 */
 * {
 	margin: 0;
@@ -19,6 +19,10 @@ li {
 }
 img {
 	border: 0;
+}
+h1 {
+	font-size: 100%;
+	font-weight: normal;
 }
 
 /* 清除浮动 */
@@ -80,7 +84,7 @@ img {
 	float: right;
 	height: 34px;
 }
-.header-r ul li {
+.header .header-r ul li {
 	float: left;
 	height: 34px;
 	line-height: 34px;
@@ -97,7 +101,7 @@ img {
 .header .header-r ul li a:hover {
 	color: #c7000b;
 }
-.header-r ul li span {
+.header .header-r ul li span {
 	display: inline-block;
 	width: 2px;
 	height: 61px;
@@ -177,7 +181,7 @@ img {
 	top: 0;
 	background-color: #c7000b;
 }
-.navBox .navgation .navgation-up {
+.nav .navBox .navgation .navgation-up {
 	width: 1000px;
 	height: 45px;
 }
@@ -207,6 +211,114 @@ img {
 }
 .navgation .navgation-up ul li:hover{
 	background-color: #AF0812;
+}
+
+.navgation .navgation-down {
+	position:absolute;
+	width: 1012px;
+	top: 45px;
+	display: none;
+	background-color: #fff;
+	height: 300px;
+}
+.navgation .navgation-down .children1 {
+	background-color: #fff;
+	width: 100%;
+	/* height: 300px; */
+}
+/*表格*/
+.navgation .navgation-down .tb {
+	width: 744px;
+	height: 317px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: inherit;
+}
+.tb tbody {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: inherit;
+}
+.tb tr {
+	/* text-align: center;
+	font-size: 16px;
+	border-bottom: 1px solid #e5e5e5; */
+	padding-bottom: 10px;
+	padding-top: 14px;
+}
+.tb tr th {
+	font-size: 16px;
+	height: 46px;
+	font-weight: 400;
+}
+.tb tr th h1 {
+	font-size: 16px;
+	height: 46px;
+	line-height: 46px;
+
+
+}
+.tb tr td { 
+	width: 135px;
+	height: 53px;
+	font-size: 14px;
+	background-color: #fff;
+}
+.tb tr .frist_td {
+	color: #d00f1b;
+	padding-left: 5px;
+}
+.tb tr .frist_td span {
+	width: 3px;
+	height: 13px;
+	display: inline-block;
+	background-color: #C7000b;
+	float: left;
+	margin-top: 3px;
+	margin-right: 7px;
+}
+.tb tr .frist_td p {
+	cursor: pointer;
+	color: #000;
+	font-size: 12px;
+}
+.navgation .navgation-down .tb-r {
+	position: relative;
+	height: 265px;
+	width: 180px;
+	/* right: 0;
+	top :-300px; */
+}
+.tb-r img {
+	height: 265px;
+	width: 180px;
+	border: 0;
+} 
+/*表格  end   */
+.navgation .navgation-down .children2 {
+	background-color: grey;
+	width: 100%;
+	height: 300px;
+}
+.navgation .navgation-down .children3 {
+	background-color: red;
+	width: 100%;
+	height: 300px;
+}
+.navgation .navgation-down .children4 {
+	background-color: blue;
+	width: 100%;
+	height: 300px;
+}
+.navgation .navgation-down .children5 {
+	background-color: black;
+	width: 100%;
+	height: 300px;
+}
+.navgation .navgation-down .children6 {
+	background-color: yellow;
+	width: 100%;
+	height: 300px;
 }
 /* kv */
 .kv {
@@ -450,6 +562,113 @@ img {
 	display: inline-block;
 	margin-left: 2px;
 }
+/*投资理财*/
+.action_T {
+	height: 681px;
+	width: 100%;
+	background-color: #fff;
+}
+.action_T .w-center {
+	width: 1000px;
+	margin: 0 auto;
+}
+.action_T .action_T_title {
+	background: url("../images/action_T_tit.png") no-repeat;
+	width: 368px;
+	height: 59px;
+	margin: 0 auto;
+	position: relative;
+	top: -12px;
+	z-index: 1;
+}
+.action_T .action_T_head {}
+.action_T .action_T_head .action_T_text {
+	padding-top:27px;
+}
+.action_T .action_T_head .action_T_text span {
+	width: 6px;
+	height: 24px;
+	display: inline-block;
+	background-color: #ff6200;
+	position: absolute;
+}
+.action_T .action_T_head .action_T_text p {
+	padding-left: 14px;
+	font-size: 24px;
+	color:#0d131a;
+	height: 24px;
+	line-height: 24px;
+}
+.action_T .action_T_head .action_T_di {
+	width: 100%;
+	height: 7px;
+	background: url("../images/action_di.png") center top repeat-x;
+	position: relative;
+	top: 8px;
+}
+.tzlc {
+	width: 1000px;
+	/*height: auto;*/
+	height: 506px;
+	position: relative;
+	top: 25px;
+	left: 0;
+}
+.tzlc .tab-t {
+	width: 663px;
+	height: 45px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.tzlc .tab-t li {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	width: 105px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 10px;
+	color: #0d131a;
+}
+.tzlc .tab-t li p {
+	color: #0d131a;
+}
+.tzlc .tab-t li.on{
+	/*display: inline-block;*/
+	border-bottom: 3px solid #ff6200;
+}
+.tzlc .tab-c {
+
+}
+.tzlc .tab-c .tzlc1 {
+	width: 100%;
+	height: 460px;
+	background-color: pink;
+}
+.tzlc .tab-c .tzlc2 {
+	width: 100%;
+	height: 460px;
+	background-color: cornflowerblue;
+}
+.tzlc .tab-c .tzlc3 {
+	width: 100%;
+	height: 460px;
+	background-color: chartreuse;
+}
+.tzlc .tab-c .tzlc4 {
+	width: 100%;
+	height: 460px;
+	background-color: #f1141f;
+}
+.tzlc .tab-c .tzlc5 {
+	width: 100%;
+	height: 460px;
+	background-color: yellow;
+}
+.hide {
+	display: block;
+}
+
 /* 底部 */
 .footer {
 	width: 100%;
